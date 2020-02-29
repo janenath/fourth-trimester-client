@@ -5,7 +5,7 @@ export function callApi() {
     let config = {}
     if(token) {
         config = {
-            url: 'http://localhost:3000/articles',
+            url: 'https://fourth-trimester.herokuapp.com//articles',
             headers: { 'Authorization': `Bearer ${token}` }
         }
         } else {
